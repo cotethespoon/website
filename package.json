@@ -1,0 +1,23 @@
+{
+  "name": "cote-the-spoon",
+  "version": "1.0.0",
+  "description": "## A website by Tom Barton and David Flindall",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cotethespoon/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cotethespoon/website/issues"
+  },
+  "homepage": "https://github.com/cotethespoon/website#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
