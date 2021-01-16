@@ -9,3 +9,42 @@ container
     background-color:red;
     margin: auto;
 }
+
+/*
+site header
+*/
+
+.site-header {
+    background:green;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px 0;
+}
+
+.site-nav ul {
+
+    list-style-type:none;
+    margin:0;
+    display:flex;
+}
+
+.site-nav li {
+    text-transform:uppercase;
+    background-color: yellow;
+
+
+}
+
+.site-nav a {
+    display:inline-block;
+    padding:0 100px;
+    text-decoration:none;
+
+
+}
+
+.site-logo {
+
+    display:block;
+}
