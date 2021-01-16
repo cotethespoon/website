@@ -15,7 +15,7 @@ site header
 */
 
 .site-header {
-    background:green;
+    background:#F6F2B1;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -47,4 +47,14 @@ site header
 .site-logo {
 
     display:block;
+}
+
+
+.header-text {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.h1 {
+    color:green;
+
 }
