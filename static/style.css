@@ -1,12 +1,16 @@
 @import 'reset.css';
 
+body, html {
+    height: 100%;
+    margin:0;
+}
+
 /*
 container
 */
 
 .container {
     max-width:1200px;
-    background-color: dodgerblue;
     margin: auto;
 }
 
@@ -49,12 +53,20 @@ site header
     display:block;
 }
 
+/*
+Main area
+*/
 
-.header-text {
-    font-family:'Courier New', Courier, monospace;
-}
 
-.h1 {
-    color:green;
-
+.background-image { 
+    /* The image used */
+    background-image: url("images/hero.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
