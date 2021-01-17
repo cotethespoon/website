@@ -1,4 +1,5 @@
 @import 'reset.css';
+@import url('Fonts/OpenSans-Light.ttf');
 
 /*
 
@@ -60,5 +61,34 @@ site header
 /*
 Main area
 */
+
+.background-image {
+
+    background-image: url('images/hero.jpg');
+    object-fit: none;
+    width: 1200px;
+    height: 700px;
+    padding:30px;
+}
+
+.title-banner {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:24px;
+    display:flex;
+    background-color:#22343E;
+    padding: 5px 0;
+    color:white;
+}
+
+.text-box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:14px;
+    background-color:#22343E;
+    max-width:400px;
+    padding: 20px;
+    color:white;
+}
+
+
 
 
