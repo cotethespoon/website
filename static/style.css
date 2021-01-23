@@ -1,5 +1,15 @@
 @import 'reset.css';
-@import url('Fonts/OpenSans-Light.ttf');
+
+/* F6F2B1 - sauce yellow
+CA9E67 - text orange
+22343E - dark green
+A9A9A9 - spoon grey
+DBDBDB - spoon reflection grey */
+
+/*fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
 
 /*
 
@@ -31,7 +41,7 @@ site header
 }
 
 .site-nav {
-    background: orange;
+    font-family: 'Open Sans', sans-serif;
 
 
 }
@@ -46,9 +56,10 @@ site header
 }
 
 .site-nav li {
-display: block;
+    display: block;
     text-transform:uppercase;
-    background-color: yellow;
+    letter-spacing: 2px;
+
 
 
 }
@@ -59,6 +70,18 @@ display: block;
     text-decoration:none;
 
 
+}
+
+.site-nav a:link,
+.site-nav a:visited {
+    color:#CA9E67;
+
+}
+
+.site-nav a:hover,
+.site-nav a:active {
+    color:#22343E;
+  
 }
 
 .site-logo {
@@ -73,33 +96,64 @@ display: block;
 Main area
 */
 
-.background-image {
+.site-intro{
 
     background-image: url('images/hero.jpg');
-    object-fit: none;
-    width: 1200px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
     height: 700px;
     padding:30px;
+    
 }
 
-.title-banner {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.site-intro__content {
+    position:relative;
+   }
+
+.site-intro__title {
     font-size:24px;
-    display:flex;
+    position:absolute;
+    right:-400px;
+    top:-120px;
+    text-align:center;
     background-color:#22343E;
-    padding: 5px 0;
+    padding:5px 20px;
     color:white;
+    transform:rotate(25deg);
+    display:inline-block;
+    text-transform: uppercase;
+    letter-spacing:2.5px;
+    font-size:1.5rem;
+
 }
 
 .text-box {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:14px;
     background-color:#22343E;
     max-width:400px;
-    padding: 20px;
+    padding: 10px;
     color:white;
 }
 
 
 
+/* typography */
 
+body {
+    font-family: 'Crimson Text', serif;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*
+utilities
+*/
+
+.rounded{
+    border-radius:10px;
+}
