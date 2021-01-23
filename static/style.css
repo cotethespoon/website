@@ -28,6 +28,16 @@ container
     margin: auto;
 }
 
+.site-logo {
+
+    display:block;
+    max-width: 200px;
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    scale: 80%;
+}
+
 /*
 site header
 */
@@ -37,7 +47,8 @@ site header
     display:flex;
     justify-content:center;
     align-items:center;
-    padding:30px 0;
+    padding:10px 0;
+    height:107px;
 }
 
 .site-nav {
@@ -84,12 +95,7 @@ site header
   
 }
 
-.site-logo {
 
-    display:block;
-    max-width: 200px;
-    margin: auto;
-}
 
 
 /*
@@ -102,7 +108,7 @@ Main area
     background-size: cover;
     display: flex;
     align-items: center;
-    height: 700px;
+    height: 600px;
     padding:30px;
     
 }
@@ -114,13 +120,13 @@ Main area
 .site-intro__title {
     font-size:24px;
     position:absolute;
-    right:-400px;
-    top:-120px;
+    right:-70px;
+    top:-60px;
     text-align:center;
     background-color:#22343E;
     padding:5px 20px;
     color:white;
-    transform:rotate(25deg);
+    transform:rotate(15deg);
     display:inline-block;
     text-transform: uppercase;
     letter-spacing:2.5px;
