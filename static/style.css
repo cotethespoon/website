@@ -30,14 +30,23 @@ site header
     padding:30px 0;
 }
 
+.site-nav {
+    background: orange;
+
+
+}
+
 .site-nav ul {
 
     list-style-type:none;
     margin:0;
     display:flex;
+    justify-content: space-between;
+
 }
 
 .site-nav li {
+display: block;
     text-transform:uppercase;
     background-color: yellow;
 
@@ -45,8 +54,8 @@ site header
 }
 
 .site-nav a {
-    display:inline-block;
-    padding:0 100px;
+    display: block;
+    padding: 0 50px;
     text-decoration:none;
 
 
@@ -55,6 +64,8 @@ site header
 .site-logo {
 
     display:block;
+    max-width: 200px;
+    margin: auto;
 }
 
 
