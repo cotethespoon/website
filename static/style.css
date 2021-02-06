@@ -1,10 +1,21 @@
 @import 'reset.css';
 
-/* F6F2B1 - sauce yellow
+/* F6F2B1  - sauce yellow
+f4f2b1 - banner yellow
 CA9E67 - text orange
 22343E - dark green
 A9A9A9 - spoon grey
 DBDBDB - spoon reflection grey */
+
+:root{
+--sauce_yellow:#F6F2B1;
+--banner_yellow:#f4f2b1;
+--cts_orange:#CA9E67;  
+--cts_darkgreen:#22343E;    
+--cts_grey:#A9A9A9;    
+--cts_lightgrey:#DBDBDB; 
+
+}
 
 /*fonts */
 
@@ -33,9 +44,6 @@ container
     display:block;
     max-width: 200px;
     margin: auto;
-    position: absolute;
-    top: 10px;
-    scale: 80%;
 }
 
 /*
@@ -43,7 +51,7 @@ site header
 */
 
 .site-header {
-    background:#F6F2B1;
+    background:#f4f5d6;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -125,7 +133,7 @@ Main area
     text-align:center;
     background-color:#22343E;
     padding:5px 20px;
-    color:white;
+    color:#f4f5d6;
     transform:rotate(15deg);
     display:inline-block;
     text-transform: uppercase;
@@ -200,6 +208,43 @@ blog
     color:white;
 }
 
+/* featured challenges */
+
+.featured-challenges{
+
+    padding:50px 0;
+    
+}
+
+.featured-challenges__list ul {
+
+    list-style-type:none;
+    margin-left:0;
+    padding-left:0;
+
+}
+
+.featured-challenges__item h3 {
+
+    color: var(--cts_orange);
+    margin-top:20px;
+
+}
+
+.featured-challenges__item{
+
+    background:yellow;
+    flex:1 0 auto;
+    margin:0 20px;
+
+}
+
+.featured-challenges__list {
+
+    display:flex;
+    
+
+}
 
 
 /* typography */
